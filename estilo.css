@@ -1,0 +1,84 @@
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: dodgerblue;
+    margin-top: 20px;
+}
+
+.conteudo::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.esquerdaConteudo{
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+.direitaConteudo{
+    padding: 10px;
+    width: 22%;
+    float: left;
+    background-color: bisque;
+    padding-right: 20px;
+}
+body{
+    padding: 10px;
+    background: ghostwhite;
+}
+.header{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Inicio Menu */
+.ativado{
+    background-color: coral;
+}
+
+li a:hover{
+    background-color: firebrick;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-superior{
+    background-color: cadetblue ;
+    color: azure;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    float: left;
+}
+/* Fim Menu */
+
+#terror {
+    background-color: black;
+    color: red;
+}
+
+h1{
+    color:brown;
+    background-color: cyan;
+}
+
+p.espaco{
+    line-height: 10px;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-indent: 10px;
+    color: steelblue;
+    background-color: palegreen;
+}
